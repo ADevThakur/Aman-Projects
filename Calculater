@@ -1,0 +1,15 @@
+#My first Project a Calculator
+
+Num1 = eval(input( 'Input 1 - ')) 
+Num2 = eval(input( 'Input 2 - '))
+Opr = input( 'Operation +-/*: ')
+if Opr == '+':
+    print (Num1+Num2)
+elif Opr == '-':
+    print (Num1-Num2)
+elif Opr == '/':
+    print (Num1/Num2)
+elif Opr == '*':
+    print (Num1*Num2)
+else:
+    print ('Invalid Opr')
